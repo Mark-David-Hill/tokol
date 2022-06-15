@@ -1,0 +1,253 @@
+{   
+    "soldierMod":1,
+    "witch3Mod":0.64,
+    "template":[
+        {
+            "name":"",
+            "str":0,
+            "wpnPow":0,
+            "pa":0
+        }
+    ],
+    "soldier":[
+        {
+            "str":24,
+            "wpnPow":4.7,
+            "pa":29
+        },
+        {
+            "str":24,
+            "wpnPow":20,
+            "pa":44
+        },
+        {
+            "str":24,
+            "wpnPow":30,
+            "pa":54
+        }
+    ],
+    "witch3":[
+        {
+            "str":61,
+            "wpnPow":4.7,
+            "pa":64
+        },
+        {
+            "str":61,
+            "wpnPow":20,
+            "pa":76
+        },
+        {
+            "str":61,
+            "wpnPow":58,
+            "pa":104
+        }
+    ],
+    
+    "gender":["female", "male"],
+    "stats": ["hp", "mp", "str", "int", "agi"],
+    "derivedStats":["pa", "pd", "sa", "sd"],
+    "elements": ["wind", "fire", "earth", "water", "virtue", "bane"],
+    
+    
+    
+    
+    
+    "humanClasses": ["soldier", "ninja", "archer", "wizard", "cleric", "knight", "swordmaster", "valkyrie", "dragoon", "siren", "warlock", "witch", "beast tamer", "dragon tamer", "priest"],
+    "demiHumanClasses":["hawkman", "mermaid", "fairy", "giant"],
+    "transmigratedClasses": ["lich", "angel knight"],
+    "undeadClasses": ["ghost", "dragon zombie", ""],
+    "beastClasses":["griffin", "cockatrice", "octopi", "cerberus"],
+    "dragonClasses": ["red dragon", "blue dragon", "earth dragon", "thunder dragon", "mushus", "naga", "vrtra"],
+    "netherworldClasses": ["gorgon", "gremlin"],
+    "heroClasses":["high priest", "sorceress", "shaman", "summoner", "lesser demon", "witch<3"],
+    "classGender":["both", "female", "male"],
+    "exampleClass":[
+        {
+            "name":"",
+            "gender": 0,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":[]
+        },
+        {
+            "name":"",
+            "race": "human",
+            "gender": "",
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "hiredStats": [0, 0, 0, 0, 0],
+            "statGains":[0, 0, 0, 0, 0],
+            "moveType":"",
+            "baseMove":0,
+            "hireCost":0,
+            "preferredEquipment":[],
+            "images":[]
+        }
+    ],
+    "charClasses": [
+        {
+            "id":"sol",
+            "name":"soldier",
+            "gender": 0,
+            "requiredEmblems": null,
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[8, 2, 4, 4, 5],
+            "atkMod":5,
+            "images":["images/classes/soldierF.gif", "images/classes/soldierM.gif"]
+        },
+        {
+            "id":"nin",
+            "name":"ninja",
+            "gender": 0,
+            "requiredEmblems": null,
+            "reqStats": [0, 0, 36, 0, 37],
+            "statGains":[5, 3, 4, 4, 7],
+            "images":["./images/classes/ninjaF.gif", "./images/classes/ninjaM.gif"]
+        },
+        {
+            "id":"arc",
+            "name":"archer",
+            "gender": 0,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 37],
+            "statGains":[6, 2, 4, 3, 6],
+            "images":["./images/classes/archerF.gif", "./images/classes/archerM.gif"]
+        },
+        {
+            "id":"wiz",
+            "name":"wizard",
+            "gender": 0,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":["./images/classes/wizardF.gif", "./images/classes/wizardM.gif"]
+        },
+        {
+            "id":"cle",
+            "name":"cleric",
+            "gender": 0,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":["./images/classes/clericF.gif", "./images/classes/clericM.gif"]
+        },
+        {
+            "id":"kni",
+            "name":"knight",
+            "gender": 0,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":["./images/classes/knightF.gif", "./images/classes/knightM.gif"]
+        },
+        {
+            "id":"swo",
+            "name":"swordmaster",
+            "gender": 2,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":[null, "./images/classes/swordmaster.gif"]
+        },
+        {
+            "id":"val",
+            "name":"valkyrie",
+            "gender": 1,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":["./images/classes/valkyrie.gif", null]
+        },
+        {
+            "id":"dra",
+            "name":"dragoon",
+            "gender": 2,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":[null, "./images/classes/dragoon.gif"]
+        },
+        {
+            "id":"sir",
+            "name":"siren",
+            "gender": 1,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":["./images/classes/siren.gif", null]
+        },
+        {
+            "id":"war",
+            "name":"warlock",
+            "gender": 2,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":[null, "./images/classes/warlock.gif"]
+        },
+        {
+            "id":"wit",
+            "name":"witch",
+            "gender": 1,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":["./images/classes/witch.gif", null]
+        },
+        {
+            "id":"beaTam",
+            "name":"beast tamer",
+            "gender": 2,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":[null, "./images/classes/beastTamer.gif"]
+        },
+        {
+            "id":"draTam",
+            "name":"dragon tamer",
+            "gender": 1,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":["./images/classes/dragonTamer.gif", null]
+        },
+        {
+            "id":"pri",
+            "name":"priest",
+            "gender": 0,
+            "requiredEmblems": [],
+            "reqStats": [0, 0, 0, 0, 0],
+            "statGains":[],
+            "images":["./images/classes/priestF.gif", "./images/classes/priestM.gif"]
+        }
+    ],
+    "emblems": [
+
+    ],
+    
+    "races":["human", "2"],
+    "character":{
+        "name":"",
+        "race":"",
+        "class":"",
+        "element":"",
+        "level":"",
+        "wisdom":"",
+        "charges":"",
+        "money":"",
+        "weapon":"",
+        "armor":"",
+        "stats":{
+            "maxHp":"",
+            "currentHp":"",
+            "maxTp":"",
+            "currentTp":"",
+            "str":"",
+            "int":"",
+            "agi":""
+        }
+    }
+}
