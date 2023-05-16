@@ -15,6 +15,7 @@
             "gender": 0,
             "requiredEmblems": [],
             "reqStats": [0, 0, 0, 0, 0],
+            "reqAli": "none",
             "statGains":[],
             "images":[]
         },
@@ -67,7 +68,8 @@
             "name":"wizard",
             "gender": 0,
             "requiredEmblems": [],
-            "reqStats": [0, 0, 0, 0, 0],
+            "reqStats": [0, 16, 0, 26, 0],
+            "reqAli": "non-lawful",
             "statGains":[],
             "images":["./images/classes/wizardF.gif", "./images/classes/wizardM.gif"]
         },
