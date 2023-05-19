@@ -70,7 +70,7 @@
             "requiredEmblems": [],
             "reqStats": [0, 16, 0, 26, 0],
             "reqAli": "non-lawful",
-            "statGains":[],
+            "statGains":[5, 6, 3, 6, 4],
             "images":["./images/classes/wizardF.gif", "./images/classes/wizardM.gif"]
         },
         {
