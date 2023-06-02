@@ -78,8 +78,9 @@
             "name":"cleric",
             "gender": 0,
             "requiredEmblems": [],
-            "reqStats": [0, 0, 0, 0, 0],
-            "statGains":[],
+            "reqStats": [0, 18, 0, 28, 0],
+            "reqAli": ["neutral", "lawful"],
+            "statGains":[5, 5, 3, 7, 4],
             "images":["./images/classes/clericF.gif", "./images/classes/clericM.gif"]
         },
         {
