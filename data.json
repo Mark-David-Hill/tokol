@@ -97,9 +97,9 @@
             "id":"swo",
             "name":"swordmaster",
             "gender": 2,
-            "requiredEmblems": [],
-            "reqStats": [0, 0, 0, 0, 0],
-            "statGains":[],
+            "requiredEmblems": ["Book of Initiation"],
+            "reqStats": [0, 0, 95, 0, 111],
+            "statGains":[6, 3, 5, 3, 6],
             "images":[null, "./images/classes/swordmaster.gif"]
         },
         {
