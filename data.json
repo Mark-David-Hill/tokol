@@ -106,9 +106,10 @@
             "id":"val",
             "name":"valkyrie",
             "gender": 1,
-            "requiredEmblems": [],
-            "reqStats": [0, 0, 0, 0, 0],
-            "statGains":[],
+            "requiredEmblems": ["lancer"],
+            "reqStats": [0, 0, 48, 41, 0],
+            "reqAli": ["neutral","lawful"],
+            "statGains":[6, 2, 5, 5, 5],
             "images":["./images/classes/valkyrie.gif", null]
         },
         {
