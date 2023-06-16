@@ -116,9 +116,10 @@
             "id":"dra",
             "name":"dragoon",
             "gender": 2,
-            "requiredEmblems": [],
-            "reqStats": [0, 0, 0, 0, 0],
-            "statGains":[],
+            "requiredEmblems": ["book of initiation"],
+            "reqStats": [215, 0, 105, 0, 94],
+            "reqAli": "non-lawful",
+            "statGains":[7, 2, 6, 3, 5],
             "images":[null, "./images/classes/dragoon.gif"]
         },
         {
