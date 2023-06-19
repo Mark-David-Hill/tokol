@@ -126,9 +126,9 @@
             "id":"sir",
             "name":"siren",
             "gender": 1,
-            "requiredEmblems": [],
-            "reqStats": [0, 0, 0, 0, 0],
-            "statGains":[],
+            "requiredEmblems": ["philosopher's stone"],
+            "reqStats": [0, 60, 0, 60, 0],
+            "statGains":[5, 7, 3, 7, 3],
             "images":["./images/classes/siren.gif", null]
         },
         {
