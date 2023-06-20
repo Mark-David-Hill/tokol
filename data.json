@@ -135,9 +135,10 @@
             "id":"war",
             "name":"warlock",
             "gender": 2,
-            "requiredEmblems": [],
-            "reqStats": [0, 0, 0, 0, 0],
-            "statGains":[],
+            "requiredEmblems": ["the pen and the sword"],
+            "reqStats": [0, 78, 90, 76, 0],
+            "reqAli": ["neutral","lawful"],
+            "statGains":[6, 5, 5, 5, 5],
             "images":[null, "./images/classes/warlock.gif"]
         },
         {
