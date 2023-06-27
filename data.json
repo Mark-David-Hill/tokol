@@ -146,8 +146,9 @@
             "name":"witch",
             "gender": 1,
             "requiredEmblems": [],
-            "reqStats": [0, 0, 0, 0, 0],
-            "statGains":[],
+            "reqStats": [0, 38, 0, 35, 0],
+            ": ["neutral","chaotic"],
+            "statGains":[5, 6, 3, 4, 6],
             "images":["./images/classes/witch.gif", null]
         },
         {
