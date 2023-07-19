@@ -89,7 +89,7 @@
             "gender": 0,
             "requiredEmblems": ["Knight's Certificate"],
             "reqStats": [0, 0, 51, 0, 53],
-            "reqAli": ["neutral","lawful"],
+            "reqAli": ["neutral", "lawful"],
             "statGains":[7, 3, 6, 4, 5],
             "images":["./images/classes/knightF.gif", "./images/classes/knightM.gif"]
         },
@@ -108,7 +108,7 @@
             "gender": 1,
             "requiredEmblems": ["lancer"],
             "reqStats": [0, 0, 48, 41, 0],
-            "reqAli": ["neutral","lawful"],
+            "reqAli": ["neutral", "lawful"],
             "statGains":[6, 2, 5, 5, 5],
             "images":["./images/classes/valkyrie.gif", null]
         },
@@ -137,7 +137,7 @@
             "gender": 2,
             "requiredEmblems": ["the pen and the sword"],
             "reqStats": [0, 78, 90, 76, 0],
-            "reqAli": ["neutral","lawful"],
+            "reqAli": ["neutral", "lawful"],
             "statGains":[6, 5, 5, 5, 5],
             "images":[null, "./images/classes/warlock.gif"]
         },
@@ -147,7 +147,7 @@
             "gender": 1,
             "requiredEmblems": [],
             "reqStats": [0, 38, 0, 35, 0],
-            ": ["neutral","chaotic"],
+            ": ["neutral", "chaotic"],
             "statGains":[5, 6, 3, 4, 6],
             "images":["./images/classes/witch.gif", null]
         },
@@ -156,8 +156,8 @@
             "name":"beast tamer",
             "gender": 2,
             "requiredEmblems": [],
-            "reqStats": [0, 0, 0, 0, 0],
-            "statGains":[],
+            "reqStats": [142, 0, 34, 0, 0],
+            "statGains":[6, 2, 5, 3, 5],
             "images":[null, "./images/classes/beastTamer.gif"]
         },
         {
