@@ -173,9 +173,10 @@
             "id":"pri",
             "name":"priest",
             "gender": 0,
-            "requiredEmblems": [],
-            "reqStats": [0, 0, 0, 0, 0],
-            "statGains":[],
+            "requiredEmblems": ['Heavenly Spirit'],
+            "reqStats": [0, 76, 0, 96, 0],
+             "reqAli": ["neutral", "lawful"],
+            "statGains":[5, 6, 4, 6, 4],
             "images":["./images/classes/priestF.gif", "./images/classes/priestM.gif"]
         }
     ],
